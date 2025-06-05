@@ -1,0 +1,10 @@
+#chatbot-popup input:focus { background: #fffbe7; }
+#chatbot-popup button:hover { background: #ff5722; }
+#chatbot-popup {
+    width: 500px !important;
+    height: 500px !important;
+    max-width: 98vw;
+}
+#chatbot-messages {
+    height: 370px !important;
+}

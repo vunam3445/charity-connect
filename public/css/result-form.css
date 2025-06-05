@@ -1,0 +1,39 @@
+/* CSS cho form kết quả (tạo & sửa) */
+.card {
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.image-container {
+    transition: all 0.3s ease;
+}
+.image-container:hover {
+    transform: scale(1.05);
+}
+.btn-danger {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.image-container:hover .btn-danger {
+    opacity: 1;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    border-color: #80bdff;
+}
+.bg-primary {
+    background-color: #ff5722 !important;
+}
+
+.btn-ff5722 {
+    background: #ff5722 !important;
+    color: #fff !important;
+    border: none !important;
+}
+.btn-ff5722:hover, .btn-ff5722:focus {
+    background: #e64a19 !important;
+    color: #fff !important;
+}
+
+

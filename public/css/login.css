@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* .body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+} */
+.container {
+    display: flex;
+    height: 100vh;
+}
+.left-panel {
+    flex: 1;
+    background-color:rgb(255, 146, 82);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.right-panel {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-login {
+    max-width: 350px;
+    background-color: white;
+   
+}
+.image-area img {
+    max-width: 100%;
+    background: rgb(255, 146, 82); 
+}
+h1, h2 {
+    margin: 0;
+    margin-bottom: 12px;
+    margin-top: 50px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+label {
+    margin-top: 10px;
+}
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    height: 50px;
+    width: 350px;
+    margin-bottom: 20px;
+}
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: #ccc solid 1px;
+    border-radius: 12px;
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    margin: auto;
+    background-image: linear-gradient(280.66deg, rgb(245, 74, 0) 0%, rgb(255, 146, 82) 102.8%);
+}
+login-form {
+    margin-top: 50px;
+}
+
+.login-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
+
+/* Khi focus vào select */
+.login-form select:focus {
+    border-color: #ff924d;
+    outline: none;
+    background-color: #fff;
+}
+.social-buttons {
+     display: flex;                         /* Use Flexbox for layout */
+     justify-content: center;               /* Centering the buttons horizontally */
+     align-items: center;                   /* Centering the buttons vertically */
+     margin-top: 20px;                     /* Space above the buttons */
+    }
+
+.social-buttons img {                     /* Target images within social buttons */
+     margin: 0 10px;                      /* Space between images (buttons) */
+    max-width: 100%;                     /* Ensure images are responsive */
+    height: auto;                        /* Maintain aspect ratio */
+    }
+
+/* Toast kiểu xổ xuống */
+.toast-message {
+    position: fixed;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #28a745;
+    color: white;
+    padding: 16px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    transition: top 0.5s ease-in-out;
+}
+
+.toast-message.show {
+    top: 30px;
+}
+
+.toast-icon {
+    font-size: 20px;
+}

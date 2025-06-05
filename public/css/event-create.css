@@ -1,0 +1,23 @@
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-form label {
+    font-weight: bold;
+}
+
+.btn-back {
+    margin-bottom: 20px;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+.text-danger {
+    color: #dc3545;
+}
